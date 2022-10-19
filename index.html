@@ -7,26 +7,23 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   </head>
   <body>
-    <h1>SASHO BOT!</h1>
-    <select class="form-select" aria-label="Default select example" id="select-form">
-      <option selected>Избери си име</option>
-      <option value="1">enev</option>
-      <option value="2">ivan</option>
-      <option value="3">koce</option>
-      <option value="4">nati</option>
-      <option value="5">klinkov</option>
-      <option value="6">pete</option>
-      <option value="7">ewa</option>
-      <option value="8">yoana</option>
-      <option value="9">vili</option>
-      <option value="10">milkin</option>
-      <option value="11">tesla</option>
-    </select>
 
-    <button id="jokeBtn" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  <div style="text-align: center;">
+    <div class='container'>
+      <h1>САСХОТО БОТ!</h1>
+      <img id="logoImg" src="https://i.ibb.co/DYYrLPN/sashotologo-1.png"  alt="..." style="height: 200px;">
+      <h3>Избери си прякор... да не ти изберем ние!</h3>
+      <select class="form-select" aria-label="Default select example" id="select-form">
+      </select>
+
+    </div>
+
+    <button id="jokeBtn" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" style="margin-top: 5%;">
      ПУСНИ ШЕГИЧКА
     </button>
     <div style="margin-top: 5%"></div>
+  </div>
+  
     
     
     
@@ -35,11 +32,11 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Sashoto says:</h5>
+            <h5 class="modal-title" id="exampleModalLabel">Сасхото сака да ти каже:</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            <img src="https://i.ibb.co/hfkYVjR/sashoto1.jpg" class="img-thumbnail" alt="...">
+            <img id="modalImg" src="" class="img-thumbnail" alt="...">
             <h4 style="color: red;" id="joke" class="mb-0"></h4>
           </div>
           <div class="modal-footer">
